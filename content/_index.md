@@ -39,7 +39,7 @@ We will be using the [EOSC-Nordic JupyterLab](https://eosc-nordic.uiogeo-apps.si
 ### Schedule
 
 Day 1 - Tuesday 11 March, 2021 (13:00 - 17:00 CET)
-- Training, planning and preparations
+- [Training, planning and preparations](day1-agenda)
 
 Day 2 - Tuesday 16 March, 2021 (13:00 - 17:00 CET)
 - Practial work
