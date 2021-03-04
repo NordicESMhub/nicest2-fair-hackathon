@@ -6,7 +6,7 @@ title = "Day 1 Agenda"
 ### March 11, 2021 (13:00 - 17:00 CET)
 
 
-### Schedule 13:00-17:00:
+### Schedule 13:00-17:00: (note times are approximate)
 
 - [13:00] Welcome, introductions (20 mins)
 - [13:20] Introduction & background (3 intros, ~20min each)
