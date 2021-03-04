@@ -10,17 +10,21 @@ title = "Day 1 Agenda"
 
 - [13:00] Welcome, introductions (20 mins)
 - [13:20] Introduction & background (3 intros, ~20min each)
-    - Intro to Open Science and FAIR data (motivation for data management), taking the perspective of researcher (Matus, Adil, …) 
-    - Joakim Philipson can give a talk on DMP, data life cycle - perspective of the data manager: Confirmed.
+    - Introduction to Open Science and FAIR data (motivation for data management), taking the perspective of researcher (Matus, Adil, …) 
+    - DMP, data life cycle - perspective of the data manager (Joakim Philipson, Stockholms Universitet)
     - Mini-break? (5 mins)
-    - Climate researchers perspective and workflow: Anne, Hamish, Tyge
-- [14:30] Intro to hackathon aims, general discussion (20 mins)
-- [14:50] Break (20 mins) 
-- [15:10] Technical (40 mins)
-    - ES-DOC
+    - Climate researchers perspective (Anne, Hamish, Tyge)
+- [14:30] Introduction to the hackathon aims, general discussion (20 mins)
+- [14:50] Break (15 mins) 
+- [15:05] Technical material (45 mins)
+    - Climate data handling: tools, formats and conventions. Introduce prepared background material (Jupyter notebook) (5 mins)
+    - ES-DOC (40 mins)
+        - Introduction/high level overview of ES-DOC (Sadie Bartholomew)
+        - The Errata system (Atef Ben Nasser) 
+        - ES-DOC tooling and internals (Mark Greenslade)
 - [15:50] Mini-break? (10 mins)
 - [16:00] Discussion and setting of concrete hackathon goals (30 mins) 
-- Planning for practical sessions (30 mins)
+- [16:30] Planning for practical sessions (30 mins)
     - Breakout groups
     - Note/record taking, etc.
  
