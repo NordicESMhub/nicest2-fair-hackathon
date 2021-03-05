@@ -9,8 +9,9 @@ title = "Day 1 Agenda"
 ### Schedule 13:00-17:00: (note times are approximate)
 
 - [13:00] Welcome, introductions (20 mins)
-- [13:20] Introduction & background (3 intros, ~20min each)
-    - Introduction to Open Science and FAIR data (motivation for data management), taking the perspective of researcher (Matúš Kalaš, Adil Hasan, Oscar Corcho?) 
+    - Intro HackMD and roll call + icebreaker
+- [13:20] Introduction & background (3 intros, ~15-20min each)
+    - Introduction to Open Science and FAIR data (motivation for data management), researcher's perspective (Matúš Kalaš, Adil Hasan, Oscar Corcho?) 
     - DMP, data life cycle - perspective of the data manager (Joakim Philipson, Stockholms Universitet)
     - Mini-break? (5 mins)
     - Climate researchers perspective (Anne Fouilloux, Hamish Struthers, Tyge Løvset)
@@ -22,7 +23,8 @@ title = "Day 1 Agenda"
         - Introduction/high level overview of ES-DOC (Sadie Bartholomew)
         - The Errata system (Atef Ben Nasser) 
         - ES-DOC tooling and internals (Mark Greenslade)
-- [15:50] Mini-break? (10 mins)
+- [15:50] Mini-break (10 mins)
+    - HackMD question: Expected hackathon outcomes
 - [16:00] Discussion and setting of concrete hackathon goals (30 mins) 
 - [16:30] Planning for practical sessions (30 mins)
     - Breakout groups
