@@ -10,10 +10,10 @@ title = "Day 1 Agenda"
 
 - [13:00] Welcome, introductions (20 mins)
 - [13:20] Introduction & background (3 intros, ~20min each)
-    - Introduction to Open Science and FAIR data (motivation for data management), taking the perspective of researcher (Matus, Adil, …) 
+    - Introduction to Open Science and FAIR data (motivation for data management), taking the perspective of researcher (Matúš Kalaš, Adil Hasan, Oscar Corcho?) 
     - DMP, data life cycle - perspective of the data manager (Joakim Philipson, Stockholms Universitet)
     - Mini-break? (5 mins)
-    - Climate researchers perspective (Anne, Hamish, Tyge)
+    - Climate researchers perspective (Anne Fouilloux, Hamish Struthers, Tyge Løvset)
 - [14:30] Introduction to the hackathon aims, general discussion (20 mins)
 - [14:50] Break (15 mins) 
 - [15:05] Technical material (45 mins)
