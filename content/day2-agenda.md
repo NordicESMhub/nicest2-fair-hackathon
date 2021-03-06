@@ -1,5 +1,6 @@
 +++
 title = "Day 2 Agenda"
+template = "content.html"
 +++
 
 

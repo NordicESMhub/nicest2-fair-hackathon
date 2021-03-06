@@ -1,5 +1,6 @@
 +++
 title = "Day 1 Agenda"
+template = "content.html"
 +++
 
 ### March 11, 2021 (13:00 - 17:00 CET)
