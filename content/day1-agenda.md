@@ -2,7 +2,6 @@
 title = "Day 1 Agenda"
 +++
 
-
 ### March 11, 2021 (13:00 - 17:00 CET)
 
 
