@@ -15,18 +15,18 @@ template = "content.html"
     - DMP, data life cycle - perspective of the data manager (Joakim Philipson, Stockholms Universitet)
     - Mini-break? (5 mins)
     - Climate researchers perspective (Anne Fouilloux, Hamish Struthers, Tyge Løvset)
-- [14:30] Introduction to the hackathon aims, general discussion (20 mins)
-- [14:50] Break (15 mins) 
-- [15:05] Technical material (45 mins)
+- [14:25] Introduction to the hackathon aims, general discussion (15 mins)
+- [14:40] Break (15 mins) 
+- [14:55] Technical material (1 hour 5 min)
     - Climate data handling: tools, formats and conventions. Introduce prepared background material (Jupyter notebook) (5 mins)
-    - ES-DOC (40 mins)
+    - ES-DOC (1 hour)
         - Introduction/high level overview of ES-DOC (Sadie Bartholomew)
         - The Errata system (Atef Ben Nasser) 
         - ES-DOC tooling and internals (Mark Greenslade)
-- [15:50] Mini-break (10 mins)
+- [16:00] Mini-break (10 mins)
     - HackMD question: Expected hackathon outcomes
-- [16:00] Discussion and setting of concrete hackathon goals (30 mins) 
-- [16:30] Planning for practical sessions (30 mins)
+- [16:10] Discussion and setting of concrete hackathon goals (25 mins) 
+- [16:35] Planning for practical sessions (25 mins)
     - Breakout groups
     - Note/record taking, etc.
  
