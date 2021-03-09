@@ -42,7 +42,7 @@ Day 1 - Tuesday 11 March, 2021 (13:00 - 17:00 CET)
 - [Training, planning and preparations](@/day1-agenda.md)
 
 Day 2 - Tuesday 16 March, 2021 (13:00 - 17:00 CET)
-- [Practial work](@/day2-agenda.md)
+- [Practical work](@/day2-agenda.md)
 
 Day 3 - Wednesday 17 March, 2021 (13:00 - 17:00 CET)
 - [Practical work](@/day3-agenda.md)
