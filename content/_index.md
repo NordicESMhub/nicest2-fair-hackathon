@@ -78,7 +78,7 @@ To ensure a balanced mix of participants we warmly invite both climate researche
 
 ### Organizers
 
-- Anne Claire Foulloux (UiO), Hamish Struthers (LiU), Matúš Kalaš (UiB),
+- Anne Claire Fouilloux (UiO), Hamish Struthers (LiU), Matúš Kalaš (UiB),
 Prashanth Dwarakanath (LiU), Tyge Løvset (NORCE), Adil Hasan (UNINETT Sigma 2)
 
 
