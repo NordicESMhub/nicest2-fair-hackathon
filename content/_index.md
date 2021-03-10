@@ -36,6 +36,10 @@ We will be using the [EOSC-Nordic JupyterLab](https://eosc-nordic.uiogeo-apps.si
 - You need a laptop or desktop computer with a modern web browser.
 - Once registered and close to the event, you will receive some information on how to register and access the [EOSC-Nordic JupyterLab](https://eosc-nordic.uiogeo-apps.sigma2.no/hub/login). We will organize a "check your access" session before the hackathon where we can help you to go through the steps.
 
+### Access to NIRD resource for practical work
+
+We have an allocated space on [NIRD](https://documentation.sigma2.no/files_storage/nird.html) where we will make available example model output and tools for practical work. To gain access to this resoure follow these [steps](@/nird-access.md).
+
 ### Schedule
 
 Day 1 - Tuesday 11 March, 2021 (13:00 - 17:00 CET)
