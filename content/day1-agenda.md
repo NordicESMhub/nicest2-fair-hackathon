@@ -22,7 +22,7 @@ template = "content.html"
     - ES-DOC (1 hour)
         - [Introduction/high level overview of ES-DOC](https://github.com/NordicESMhub/nicest2-fair-hackathon/blob/main/content/presentations/es-doc-for-cmip6-intro.pdf) (Sadie Bartholomew, NCAS & University of Reading)
         - [The Errata system](https://github.com/NordicESMhub/nicest2-fair-hackathon/blob/main/content/presentations/errata_nicest2.pdf) (Atef Ben Nasser, IPSL/CNRS) 
-        - ES-DOC tooling and internals (Mark Greenslade IPSL/CNRS)
+        - [ES-DOC tooling and internals](https://github.com/NordicESMhub/nicest2-fair-hackathon/blob/main/content/presentations/esdoc-2020-nicest2-cim2-cmip6.pdf) (Mark Greenslade IPSL/CNRS)
 - [16:00] Mini-break (10 mins)
     - HackMD question: Expected hackathon outcomes
 - [16:10] Discussion and setting of concrete hackathon goals (25 mins) 
