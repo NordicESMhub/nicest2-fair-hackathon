@@ -20,9 +20,9 @@ template = "content.html"
 - [14:55] Technical material (1 hour 5 min)
     - Climate data handling: tools, formats and conventions. Introduce prepared background material (Jupyter notebook) (5 mins)
     - ES-DOC (1 hour)
-        - Introduction/high level overview of ES-DOC (Sadie Bartholomew)
-        - The Errata system (Atef Ben Nasser) 
-        - ES-DOC tooling and internals (Mark Greenslade)
+        - Introduction/high level overview of ES-DOC (Sadie Bartholomew, NCAS & University of Reading)
+        - The Errata system (Atef Ben Nasser, IPSL/CNRS) 
+        - ES-DOC tooling and internals (Mark Greenslade IPSL/CNRS)
 - [16:00] Mini-break (10 mins)
     - HackMD question: Expected hackathon outcomes
 - [16:10] Discussion and setting of concrete hackathon goals (25 mins) 
