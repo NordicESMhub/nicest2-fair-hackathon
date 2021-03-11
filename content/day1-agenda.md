@@ -12,7 +12,7 @@ template = "content.html"
     - Incl. HackMD and roll call + icebreaker
 - [13:20] Introduction & background (3 introductions, 15-20 mins each)
     - [Introduction to Open Science and FAIR data](https://docs.google.com/presentation/d/1KDlvWZ5dUxFv6JL7K5dJzVQayF0g9oOR55xSRm71yu0/edit?usp=sharing) (Matúš Kalaš, additional material Adil Hasan) 
-    - Data management planning, data life cycle - perspective of a data manager (Joakim Philipson)
+    - Data management planning, data life cycle - perspective of a data manager (Adil Hasan)
     - Mini-break? (5 mins)
     - [Climate researchers perspective](https://docs.google.com/presentation/d/1AzbC9PWqZnro3wepKcs-kGNFB69BQqJ-1JCYeNgwu5M/edit?usp=sharing) (Anne Fouilloux, Hamish Struthers, Tyge Løvset)
 - [14:25] Introduction to the hackathon aims, general discussion (15 mins)
