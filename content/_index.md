@@ -60,7 +60,7 @@ registered participants.
 
 ### Shared notes document
 
-We will use 1 or more HackMD documents to collect notes during the hackathon. The initial, main [HackMD document is here](https://hackmd.io/YzxHctGbSDmLdmaR01yQAQ?edit).
+We will use 1 or more HackMD documents to collect notes during the hackathon. The initial, main [HackMD document is here](https://hackmd.io/YzxHctGbSDmLdmaR01yQAQ).
 
 ### Who the hackathon is for
 
