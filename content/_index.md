@@ -58,6 +58,10 @@ The hackathon will be held **online**, participation links will be sent to
 registered participants.
 
 
+### Shared notes document
+
+We will use 1 or more HackMD documents to collect notes during the hackathon. The initial, main [HackMD document is here](https://hackmd.io/YzxHctGbSDmLdmaR01yQAQ?edit).
+
 ### Who the hackathon is for
 
 From FAIR experts to climate modellers.
