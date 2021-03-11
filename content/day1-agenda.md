@@ -9,7 +9,7 @@ template = "content.html"
 ### Schedule 13:00-17:00: (note times are approximate)
 
 - [13:00] Welcome, introductions (20 mins)
-    - Incl. HackMD and roll call + icebreaker
+    - Incl. [HackMD and roll call + icebreaker](https://hackmd.io/YzxHctGbSDmLdmaR01yQAQ?edit)
 - [13:20] Introduction & background (3 introductions, 15-20 mins each)
     - [Introduction to Open Science and FAIR data](https://docs.google.com/presentation/d/1KDlvWZ5dUxFv6JL7K5dJzVQayF0g9oOR55xSRm71yu0/edit?usp=sharing) (Matúš Kalaš, additional material Adil Hasan) 
     - Data management planning, data life cycle - perspective of a data manager (Adil Hasan)
