@@ -1,3 +1,8 @@
++++
+title = "Presentations (slides)"
+template = "content.html"
++++
+
 This includes the presentation slides from the training day of the hackathon.
 
 Some are online documents, others are in this folder.
