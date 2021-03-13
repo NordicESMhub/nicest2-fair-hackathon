@@ -10,6 +10,7 @@ template = "content.html"
 ### Schedule 13:00-17:00: (note times are approximate)
 
 - [13:00] Welcome and common session (1 hour)
+    -  Incl. [HackMD and roll call + icebreaker](https://hackmd.io/YzxHctGbSDmLdmaR01yQAQ?edit)
 - [14:00] Group work (1 hour 15 min)
 - [15:15] Break (30 mins)
 - [15:45] Group work
