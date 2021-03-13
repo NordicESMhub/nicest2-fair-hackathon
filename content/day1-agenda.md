@@ -29,6 +29,7 @@ template = "content.html"
 - [16:35] Planning for practical sessions (25 mins)
     - [Breakout groups](https://docs.google.com/presentation/d/1hISKBsIRhCfTDdMeRA96lg6IC6YzNu_bvo0KhpOQzb0/edit?usp=sharing)
     - Note/record taking, _etc._
- 
+
+- [HackMD notes from Day-1](@/notes/hackmd-day1.md) (anonymized)
 
 
