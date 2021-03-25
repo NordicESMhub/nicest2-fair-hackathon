@@ -5,8 +5,6 @@ template = "content.html"
 
 # Cookbook / DMP work group, Day 2 (Tuesday)
 
-Hamish, Joakim, Oskar, Matus, Adil, Aiden, Tyge, Abdelkader, Prashanth
-
 
 ## FAIR cookbooks
 
@@ -57,13 +55,13 @@ Information from DMPs should be used to populate metadata (via a cookbook recipe
 # Cookbook / DMP work group, Day 3 (Wednesday)
 
 Background: https://fairplus.github.io/the-fair-cookbook/content/home.html
-- What is a "recipe?" Could be useful to define the definition of this and "cookbook" in introduction
-- Not complete, but some answers can be found here:
+  - What is a "recipe?" Could be useful to define the definition of this and "cookbook" in introduction
+    - Not complete, but some answers can be found here:
 https://fairplus.github.io/the-fair-cookbook/content/recipes/help/how-to-create-recipe-with-git.html
 
-(Hamish): mailing list -> meeting schedule
-
-FAIRs fair - review of first draft.
+To do's:
+- Create a mailing list -> meeting schedule
+- FAIRs fair - review of first draft.
 
 
 ## Create a starting template
@@ -172,7 +170,7 @@ What platform/technology should we use for a cookbook? Jupyter book?, jupyter no
 ## Challenges
 - Searchability
 - Practicality of downloading/acquiring
-    - Anne mentioned yesterday that downloading from certain databases (e.g. our own in Dataverse) can be cumbersome, as all has to be downloaded at once. Can it be separated for individual download?
+    - Downloading from certain databases (e.g. our own in Dataverse) can be cumbersome, as all has to be downloaded at once. Can it be separated for individual download?
 - Environments, containers etc.
 - What data is required to be stored? (Storing only certain variables, restart files and ICs, etc.)
 - Separate/consolidated metadata
