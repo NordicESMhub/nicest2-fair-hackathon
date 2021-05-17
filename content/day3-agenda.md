@@ -15,5 +15,8 @@ template = "content.html"
 - [15:15] Group work (1 hour 15 min)
 - [16:30] Wrap up (30 min)
  
+- [HackMD notes from Day-3: Cookbook breakout group](@/notes/hackmd-cookbook-day3.md) (anonymized)
+- [HackMD notes from Day-3: Idealized citation breakout group](@/notes/hackmd-day3-idealized-citation.md) (anonymized)
+- [HackMD notes from Day-3: Ontologies breakout group](@/notes/hackmd-day3-ontologies.md) (anonymized)
 
 
