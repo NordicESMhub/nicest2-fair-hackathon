@@ -16,5 +16,7 @@ template = "content.html"
 - [15:15] Break (30 mins)
 - [15:45] Group work
  
+- [HackMD notes from Day-2: common session](@/notes/hackmd-day2-common.md) (anonymized)
+- [HackMD notes from Day-2: Cookbook breakout group](@/notes/hackmd-cookbook-working-group-notes.md) (anonymized)
 
 
