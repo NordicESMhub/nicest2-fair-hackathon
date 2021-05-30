@@ -30,7 +30,7 @@ Q. Is ACDD exetensible? At present it seems to be more taylored to measurements 
 
 ### Measuring FAIRness: climate data stored on NIRD
 
-Tyge demonstrates NIRD storage/DMP. Test this information in f-uji.net. Testable by:
+One participant demonstrates NIRD storage/DMP. Test this information in f-uji.net. Testable by:
 
 https://www.f-uji.net/index.php 
 
