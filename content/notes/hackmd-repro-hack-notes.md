@@ -1,3 +1,8 @@
++++
+title = "Day3: Idealized citation working group: Reprohack analysis"
+template = "content.html"
++++
+
 #  Reprohack hackathon Report
 
 The [NICEST2 hackathon on FAIR climate data](https://nordicesmhub.github.io/nicest2-fair-hackathon/) took place on March 11, 16 and 17, 2021 (13:00 - 17:00 CET). It had a combination of lectures/training and more practical sessions and discussions.
