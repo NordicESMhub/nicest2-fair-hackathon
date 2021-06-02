@@ -17,6 +17,7 @@ template = "content.html"
  
 - [HackMD notes from Day-3: Cookbook breakout group](@/notes/hackmd-cookbook-day3.md) (anonymized)
 - [HackMD notes from Day-3: Idealized citation breakout group](@/notes/hackmd-day3-idealized-citation.md) (anonymized)
+- [HackMD notes from Day-3: ReproHack analysis](@/notes/hackmd-repro-hack-notes.md) (anonymized)
 - [HackMD notes from Day-3: Ontologies breakout group](@/notes/hackmd-day3-ontologies.md) (anonymized)
 
 
