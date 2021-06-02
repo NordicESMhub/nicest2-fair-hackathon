@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" integrity="sha256-BPfK9M5v34c2XP6p0cxVz1mUQLst0gTLk0mlc7kuodA=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js" integrity="sha256-yDc0eil8GjWFKqN1OSzHSVCiuGghTosZCcRje4tj7iQ=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <link href="https://nordicesmhub.github.io/nicest2-fair-hackathon/css/style.css" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5JR4X3MNYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'G-5JR4X3MNYT');
+	</script>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PPP759D');</script>
+  <!-- End Google Tag Manager -->
+  </head>
+
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPP759D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <div class="container">
+
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://neic.no" target="_blank">NeIC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://neic.no/nicest2" target="_blank">NICEST2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html" ta\
+rget="_blank">Code of Conduct</a>
+            </li>
+            <li class="nav-item">
+	      <a class="nav-link" href="https://github.com/NordicESMHub/nicest2-fair-hackathon">Improve this page</a>
+            </li>	    
+
+
+          </ul>
+        </div>
+      </nav>
+      <!-- end navigation -->
+           
+      
+      <div class="row top-buffer">
+        <div class="col">
+          
+            <h1>Day 1 HackMD</h1>
+          
+        </div>
+      </div>
+
+  <div class="row">
+    <div class="col-md-10">
+      
+        <h3 id="questions-introduction-to-open-science-and-fair-data">Questions: Introduction to Open Science and FAIR data</h3>
+<ul>
+<li>A reflection I had is the distinction between repeating an experiment and coming up with the same <em>results</em> versus coming to the same <em>conclusions</em>. Are these two different questions? I'm thinking about the difficulty in reproducing results in chaotic systems (like GCMs) — the results should of course converge to the same outcome
+<ul>
+<li>Exactly 👍</li>
+<li>More at <a href="https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions.html">https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions.html</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="data-management-planning-data-life-cycle-perspective-of-a-data-manager">Data management planning, data life cycle - perspective of a data manager</h3>
+<ul>
+<li>
+<p>This was a creative idea to start discussing how to make data more FAIR <a href="https://www.researchdata.uni-jena.de/en/news/_fairest+dataset_+wettbewerb">https://www.researchdata.uni-jena.de/en/news/_fairest+dataset_+wettbewerb</a></p>
+</li>
+<li>
+<p>Maybe one more idea here, that related identifiers are very important. To link your paper, code, data…</p>
+<ul>
+<li>Yes, I think it is very important! Not always easy to do in practice.</li>
+<li>Absolutely crucial!</li>
+</ul>
+</li>
+<li>
+<p>Aren't contact points (names) in metadata GDPR problematic?</p>
+<ul>
+<li>I honestly don't know! The main issue is that usually we may not be aware that names are added</li>
+<li>Ideally, these contacts would have to explicitly agree. We're trying to do that at least when listing contributors on a GitHub project. But completely hopeless when submitting some abstracts on EasyChair/<em>etc.</em> and asked for email addresses of all co-authors🤦🏽‍♀️</li>
+</ul>
+</li>
+<li>
+<p>What does &quot;enable machine access&quot; mean in practice?</p>
+<ul>
+<li>for instance: information filled in DMP could be used to allocate storage (and/or computing resources?)
+<ul>
+<li>what has that got to do with me (who produced the data)? how can I have any impact on machines to find/use my data? which languages do machines speak?</li>
+<li>True, well partially. If you want to apply for storage for your data then at the moment you need to fill in an application form. If the DMP were able to be read by other services then you could imagine that you fill into the DMP that you want X amount of storage at location Y. That could be picked up by the storage reservation service without you having to fill in more forms. </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Questions to researchers: what would be useful to have in DMP?</p>
+<ul>
+<li>Perhaps it's useful to ask: What do you wish was in the DMP of projects whose data you have used?+1
+<ul>
+<li>Where to start: I usually get a bulk of data but never know which one I should look at first.</li>
+<li>This is very useful. So, are you saying that the data needs some docs on the order in which to read the data? This would come under the documentation part of the DMP. Very useful. It would be interesting to hear more things.</li>
+</ul>
+</li>
+<li>Maybe a workflow would do that (according the inputs are well defined and the workflow is not meant to describe steps only)?</li>
+</ul>
+</li>
+</ul>
+<h3 id="climate-researchers-perspective">Climate researchers perspective</h3>
+<ul>
+<li>
+<p>Reproducibility for climate models: usually not possible and is it important?</p>
+<ul>
+<li>I’d just like to add that bit-reproducibility is most likely going to be even  less likely to be achievable in the future, considering for example the move towards heterogenous computing with accelerators and GPUs using single precision. Therefore I guess my question is: Is the &quot;R&quot; in FAIR practically unreachable for climate modelling? Is this a problem?</li>
+<li>Bit-reproducibility is not really needed, but if the differences can be verified to be within a certain error threshold, it would still be very useful. If reproduced data are wildly different from the original, one should question the accuracy of the original data as well, even if they were created in a different environment.</li>
+</ul>
+</li>
+<li>
+<p>For example, is it enough that statistics and conclusions are reproducible, but not the actual data?</p>
+<ul>
+<li>It is probably linked to the conclusions: if they are reproducible then it may be sufficient (in climate, we are not interested in a &quot;fully&quot; reproducible state)</li>
+</ul>
+</li>
+<li>
+<p>Speaking for my example model NorESM and probably for any other large infrastructure ESM: I would argue that without access to the specific HPC architecture that my experiments are run on, it would be near impossible for anyone to even start thinking about trying to reproduce the experiments. This is not an argument against trying to produce FAIR data/code/work flow but puts questions about bit-wise reproducibility into perspective. </p>
+</li>
+<li>
+<p>One can try one of the scientific research data hosts e.g. <a href="https://researchdata.4tu.nl/en/about/organisation/">https://researchdata.4tu.nl/en/about/organisation/</a>, still one has to pay for it.</p>
+<ul>
+<li>Is this data repository used for depositing climate data?</li>
+</ul>
+</li>
+<li>
+<p>I’d just like to add that bit-reproducibility is most likely going to be even less likely to be achievable in the future, considering for example the move towards heterogenous computing with accelerators and GPUs using single precision. Is this a problem? For example, is it enough that statistics and conclusions are reproducible, but not the actual data?</p>
+<ul>
+<li>Thanks a million for the point, important! Bit-reproducibility is not what's required by &quot;reproducible science&quot; in general.</li>
+<li>Bit-reproducibility is not really needed, but if the differences can be verified to be within a certain error threshold, it would still be very useful. If reproduced data are wildly different from the original, one should question the accuracy of the original data as well, even if they were created in a different environments.
+<ul>
+<li>One issue with this is that climate simulations can be long. Historical simulations (that at least can be verified against observations) can be ~200 yrs, decadal predictions ~20 yrs, scenarios ~100 yrs into the future. Other types like spin-ups can be even several thousand years long. The fact that there individual accuracy is indeed in question is part of the reason for having ensembles and keeping a veritable zoo of models around.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>A climate researcher might know a lot of theory about FAIR data, but at the same time have no idea what to do with their own data, where to start, how to apply the &quot;FAIR theory&quot;</p>
+<ul>
+<li>
+<p>In CMIP, there is a lot of the data management defined and common practices are followed at all levels of the data/metadata publishing process. But:</p>
+<ul>
+<li>What about non-CMIP data?</li>
+<li>Could CMIP conventions not necessarily specific to CMIP (<em>e.g.</em> naming variables and units) be made into general conventions?</li>
+</ul>
+</li>
+<li>
+<p>I think <a href="https://cfconventions.org">CF</a> + <a href="https://wiki.esipfed.org/Attribute_Convention_for_Data_Discovery_1-3">ACDD</a> +<a href="https://es-doc.org/">ES-DOC</a> gets us a long way to describing research (modeling) data</p>
+</li>
+<li>
+<p>As a bit of background information of CMIP (probably known to people here): <a href="http://clipc-services.ceda.ac.uk/dreq/index.html">The CMIP6 Data Request</a> standardizes among other things <a href="http://clipc-services.ceda.ac.uk/dreq/index/var.html">variables</a>.</p>
+</li>
+<li>
+<p>What about observations?</p>
+<ul>
+<li>I guess observations have their own &quot;standards&quot;.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>FAIR seems to me like an ideal. My practical approach as a researcher is to try to improve the fairness of my data/publication practice rather than being FAIR altogteher. </p>
+<ul>
+<li>I fully agree with you. I think that this is what we will see happening in research. I suspect that what FAIR means will change.</li>
+</ul>
+</li>
+</ul>
+<h1 id="introduction-to-the-hackathon-aims-general-discussion">Introduction to the hackathon aims, general discussion</h1>
+<ul>
+<li>Do we only focus on climate data procued by climate models?</li>
+<li>Are we only interested by FAIR for machines or &quot;FAIR&quot; for researchers?</li>
+<li>At least, the published results in a peer-reviewed journal are reproducible. Is that something worth discussing?</li>
+</ul>
+<h1 id="technical-material">Technical material</h1>
+<ul>
+<li>Cannot see the document in the home dir. in JupyterLab? I reloaded, but it did not help. 
+<ul>
+<li>It is located in ~/shared-ns1000k/dataporten-home/87e7b7d1-2d512f-2d4713-2d9c15-2d3a2d54fd9ca0
+<ul>
+<li>Awesome, I found it :+1: </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="es-doc-introduction">ES-DOC: Introduction</h3>
+<ul>
+<li>How granular is the search on es-doc, i.e. what is the smallest unit that a query result refers to?
+<ul>
+<li>The smallest queryable units are: project, institute, model, mip, document-type, document-version.
+Note that we do not have full semantic search, but we plan to enhance search capabilities via
+elastic search in Q4 2021.</li>
+</ul>
+</li>
+<li>Is there any file-level info about data published on ESGF, that's available on ES-DOC?
+<ul>
+<li>Yes, the Further Info URL links back to relevant files available on the ESGF
+nodes via the 'Dataset Documentation' section against the item 'ESGF Search'.
+Also some documentation sections for given workflow components contain
+'Data link' information which links back to the data and often the file
+(though perhaps elsewhere to ESGF).</li>
+</ul>
+</li>
+<li>Can't see NorESM?
+<ul>
+<li>Good question! It turns out that NorESM is referred to by the acronym 'NCC'
+(<strong>N</strong>orESM <strong>C</strong>limate modeling <strong>C</strong>onsortium consisting of CICERO) so when
+searching for NorESM related documentation look for 'NCC' instead of
+'NorESM'.
+<ul>
+<li>That does not show up in <a href="https://explore.es-doc.org/">the explorer</a> </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>What is the link between ESGF and ES-DOC? One can publish data in ESGF and not add info in ES-DOC
+<ul>
+<li>In short, I think it could be summarised that ESGF manage and archive the <em>datasets</em> whereas
+ES-DOC manages and archives the <em>documentation</em>. ESGF have a ESG Publisher service which
+captures the relevant information about any CMIP6 data that is published in ESGF and passes
+it through to the ES-DOC ecosystem. If you add CMIP6 data via ESGF it will
+eventually be incorporated to the documentation available on ES-DOC (site and FUrther Info UR.</li>
+</ul>
+</li>
+<li>ES-DOC on github: <a href="https://github.com/ES-DOC">https://github.com/ES-DOC</a></li>
+<li>cf-python package: <a href="https://ncas-cms.github.io/cf-python/">https://ncas-cms.github.io/cf-python/</a></li>
+<li>ES-DOC ocean description metadata for CMIP6: <a href="https://specializations.es-doc.org/static/index.html?target=cmip6.ocean&amp;client=esdoc-url-rewrite">https://specializations.es-doc.org/static/index.html?target=cmip6.ocean&amp;client=esdoc-url-rewrite</a> </li>
+</ul>
+<h3 id="errata">Errata</h3>
+<ul>
+<li>How can you verify that the errata is genuine - I mean is not something malicious?
+<ul>
+<li>At the moment only the modellers themselves can create errata entries, so the likelyhood of that being malicious is rather low.</li>
+</ul>
+</li>
+<li>Is there a link to errata from ESGF? Or as a researcher, should we always first search for errata before downloading/checking data?
+<ul>
+<li>I second this question, but also am wondering if it more useful when the data is e.g. sitting on a research group's server? Data straight from ESGF should already be the latest/most secure, right?</li>
+<li>The link between the errata and esgf for the time being remains within the PID handles only. We have proposed an integration with the ESGF front-end, some sort of a binary signal in front of the data to signal the existence of errata. But for the time being it's not yet in implementation. We already have the API available so depends on ESGF devs. I think there needs to be a reflex adopted by researchers to first use the errata to check the sanity of data used. </li>
+<li>Quick follow-up, the reason why data available on ESGF not necessarily being the latest/safest is also due to the fact that an errata can be about something really trivial (e.g. metadata issue) and doesn't necessarily harm the content of the files for example, but also keeping older versions available for transparency and openess ends as well as reproducibility concerns.</li>
+</ul>
+</li>
+</ul>
+<h3 id="es-doc-tooling-and-internals">ES-DOC tooling and internals</h3>
+<ul>
+<li>Is it easy to extend ES-DOC services to new projects?</li>
+</ul>
+<h3 id="hackmd-question-expected-hackathon-outcomes">HackMD question: Expected hackathon outcomes</h3>
+<p>Are there specific, concrete outcomes that you can suggest for next weeks working groups?</p>
+<ul>
+<li>Low hanging fruit
+<ul>
+<li>Climate model output (research): esm2cmor (model specific) like tool for generating <strong>metadata</strong> only from research simulations (CF + ACDD? + ...) - push to a <em>simulation register</em>, research simulation metadata database. </li>
+<li>Integrating DMP with (storage) services</li>
+</ul>
+</li>
+<li>High value tasks
+<ul>
+<li>Pushing data from DMPs to workflow -&gt; metadata generation (so people are not repeatedly inputing the same information in multiple places)</li>
+<li>Reuse of ESGF for research simulations. What pieces are missing/required
+<ul>
+<li>Replacing MIP tables with ??</li>
+<li>Errata</li>
+<li>ES-DOC?</li>
+</ul>
+</li>
+<li>Metadata beyond model output? Metadata objects.</li>
+</ul>
+</li>
+<li>Other
+<ul>
+<li><a href="https://c6dreq.dkrz.de/">https://c6dreq.dkrz.de/</a> data requeata requests -&gt; database</li>
+<li>ocean grids</li>
+</ul>
+</li>
+</ul>
+<h3 id="planning-for-practical-sessions">Planning for practical sessions</h3>
+<p>Day 2 (03/16, 13:00-17:00 CET) and day 3 (03/17, 13:00-17:00 CET) are scheduled for practical work. We hope this provides an opportunity for those interested/motivated in diving deeper into some of the questions raised today in a breakout/working group setting?</p>
+<p>Some ideas/suggestions for breakout themes (but we want to hear your ideas also!):</p>
+<ul>
+<li><strong>Tools</strong>: Is it possible to identify one (or more) tools that are needed for metadata capture. If yes, outline the software specification.</li>
+<li><strong>Metadata</strong>: What are the relevant metadata sources? (ACDD, CF, ES-DOC, …). What ,if anything is missing for describing research simulations/workflow? </li>
+<li><strong>Workflow/DMP integration</strong>*: How in practice to integrate DMPs and researchers workflow to ensure information (metadata) is propagated. Are there things missing in DMPs that are important for Climate? How to make DMPs relevant &amp; userful for researchers?</li>
+<li><strong>Big picture/roadmap (the ponderers club)</strong>: Roadmap to FAIR climate data, collaborations: who can/should be involved (Nordic, international), governance ...</li>
+</ul>
+<h2 id="thoughts-inputs-about-hackathon">Thoughts &amp; inputs about hackathon</h2>
+<ul>
+<li>Apply to climate and use knowledge from bio-informatics (inputs as an &quot;outsider&quot; from climate), interested in options / efforts towards motivating &amp; lowering barrier</li>
+<li>interested to work on lowering the barrier for the scientists. There has been various developments in recent years in terms of data formats and tools (e.g NetCDF, CF-compilants) to make sure the climate data is standardized and well documented. Would it be possible to come up with automated FAIRness checks extending the meta data so that increasing our confidence in (re) using these datasets? </li>
+<li>motivate on why we &quot;should&quot; share data. Regional modelling to catch up with the global. Publication of research climate data to ESGF to be considered to benefit from existing work </li>
+<li>see on a practical example how to &quot;make something FAIR&quot; +1+1</li>
+<li>DMP integration with other services (for instance in Norway with Sigma2 MAS), ES-DOC. also interested in working on making data FAIR (practical example).</li>
+<li>identify existing project/tools to extend/reuse. <a href="https://c6dreq.dkrz.de/">https://c6dreq.dkrz.de/</a>, undertand what kind of grids are used (CMIP6, etc.), make a registry of the different grids (can be reused to re-grid)</li>
+</ul>
+<p>ES-DOC ocean description metadata for CMIP6: <a href="https://specializations.es-doc.org/static/index.html?target=cmip6.ocean&amp;client=esdoc-url-rewrite">https://specializations.es-doc.org/static/index.html?target=cmip6.ocean&amp;client=esdoc-url-rewrite</a></p>
+<ul>
+<li>see what tools could be reused (in our own research group), from own data, consider using own researchers' <em>et al.</em>'s data as a practical example</li>
+<li>librarian, DMP (machine actionable) as a tool to evaluate FAIRness of the data. ES-DOC and Errata are interesting too.</li>
+</ul>
+
+      
+    </div>
+  </div>
+
+      <!-- footer -->
+      <div class="row">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg">
+          <p>
+            <strong>Funding</strong>
+          </p>
+          <p>
+            NICEST2 is a project within the
+            <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+            NeIC is an organisational unit under <a href="http://www.nordforsk.org/en" target="_blank">NordForsk</a>.
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Follow us</strong>
+          </p>
+          <p>
+            <a href="https://github.com/NordicESMHub" target="_blank">
+              <img src="https://nordicesmhub.github.io/nicest2-fair-hackathon/processed_images/b4cc1d3c13d7ddeb00.png"
+                   alt="NordicESMHub GitHub organization">
+            </a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Contact</strong>
+          </p>
+          <p>
+            <a href="mailto:struthers@nsc.liu.se">struthers@nsc.liu.se</a>
+          </p>
+        </div>
+      </div>
+      <!-- end footer -->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
+            integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8="
+            crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+
+      // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+      var shiftWindow = function() { scrollBy(0, -100) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
+
+  </body>
+</html>

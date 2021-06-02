@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" integrity="sha256-BPfK9M5v34c2XP6p0cxVz1mUQLst0gTLk0mlc7kuodA=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js" integrity="sha256-yDc0eil8GjWFKqN1OSzHSVCiuGghTosZCcRje4tj7iQ=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <link href="https://nordicesmhub.github.io/nicest2-fair-hackathon/css/style.css" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5JR4X3MNYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'G-5JR4X3MNYT');
+	</script>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PPP759D');</script>
+  <!-- End Google Tag Manager -->
+  </head>
+
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPP759D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <div class="container">
+
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://neic.no" target="_blank">NeIC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://neic.no/nicest2" target="_blank">NICEST2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html" ta\
+rget="_blank">Code of Conduct</a>
+            </li>
+            <li class="nav-item">
+	      <a class="nav-link" href="https://github.com/NordicESMHub/nicest2-fair-hackathon">Improve this page</a>
+            </li>	    
+
+
+          </ul>
+        </div>
+      </nav>
+      <!-- end navigation -->
+           
+      
+      <div class="row top-buffer">
+        <div class="col">
+          
+            <h1>Day3: Idealized citation working group: Reprohack analysis</h1>
+          
+        </div>
+      </div>
+
+  <div class="row">
+    <div class="col-md-10">
+      
+        <h1 id="reprohack-hackathon-report">Reprohack hackathon Report</h1>
+<p>The <a href="https://nordicesmhub.github.io/nicest2-fair-hackathon/">NICEST2 hackathon on FAIR climate data</a> took place on March 11, 16 and 17, 2021 (13:00 - 17:00 CET). It had a combination of lectures/training and more practical sessions and discussions.
+Reprohack was one of this practical sessions and span over the 2 hackathon days.</p>
+<h2 id="what-is-a-reprohack">What is a Reprohack?</h2>
+<p>A ReproHack - reproducibility hackathon - is an event where participants aim to reproduce scientific results detailed in published papers. </p>
+<p><strong>The aim of a ReproHack is absolutely not to undermine or discredit researchers or their work but to highlight their great effort and understand how to better support researchers towards Open Science.</strong></p>
+<p>Reprohack participants choose a paper and then try to understand the paper and to reproduce its results, from published code and data. At the end of the reprohack, results are reported back to the authors.</p>
+<p>See <a href="https://github.com/reprohack/reprohack-hq">https://github.com/reprohack/reprohack-hq</a> for more information and links to past events.</p>
+<h2 id="reprohack-during-the-nicest2-fair-climate-data-hackathon">Reprohack during the NICEST2 FAIR Climate data hackathon</h2>
+<p>The emphasis was not on reproducibility but on the FAIRness of scientific publications. We will discuss further what we meant by it in a next section. </p>
+<p>We have chosen a scientific paper published by one of the hackathon's participant: </p>
+<p><strong>Humanitarian need drives multilateral disaster aid</strong> by Dellmuth, Lisa M. and Bender, Frida A.-M. and Jönsson, Aiden R. and Rosvold, Elisabeth L. and von Uexkull, Nina. PNAS January 26, 2021 118 (4) e2018293118; <a href="https://doi.org/10.1073/pnas.2018293118">https://doi.org/10.1073/pnas.2018293118</a>.</p>
+<p>Our objective is to analyze the current practices adopted by researchers and the inherent difficulties related to available infrastructures such as data archive providers and publishers.</p>
+<h2 id="who-is-aiden-jonsson">Who is Aiden Jönsson?</h2>
+<p>Aiden Jönsson is a PhD Student at the Department of Meteorology (MISU), Stockholm University (Sweden).</p>
+<p>Aiden is currently doing work on the &quot;albedo symmetry&quot; problem: while the surface and clear-sky reflectivity of the Earth is asymmetric, the all-sky reflectivity is compensated by cloud contributions to give a remarkable degree of symmetry in all-sky reflectivity. Aiden wants to learn more about how dynamics and clouds work with Earth's radiative energy balance in order to understand why/how this would be. You can find some of his codes and notebooks at: codeberg.org/aidenrobert</p>
+<p>Aiden is an early adopter of the Open Science principles and has done incredible efforts to make his research FAIR.</p>
+<h2 id="books-a-day-in-the-life-of-a-researcher">:books: A day in the life of a researcher</h2>
+<h3 id="earth-africa-navigate-the-materials">:earth_africa: Navigate the materials</h3>
+<p>We opened the aforementioned paper: <a href="https://www.pnas.org/content/118/4/e2018293118">https://www.pnas.org/content/118/4/e2018293118</a>. </p>
+<h4 id="pnas-journal">PNAS journal</h4>
+<p>PNAS stands for <em>Proceedings of the National Academy of Sciences of the United States of America</em>.</p>
+<p><img src="https://i.imgur.com/nG51OOW.png" alt="" /></p>
+<p>To get some information on how the procedures to follow when submitting a paper, we clicked on the tab &quot;Authors&quot;.</p>
+<p><img src="https://i.imgur.com/MdqZwuK.png" alt="" /></p>
+<p>PNAS highlights 4 main reasons why an author would choose PNAS:</p>
+<ul>
+<li>Comprehensive scientific coverage</li>
+<li>Broad scientific audience</li>
+<li>Rapid, high-quality peer review</li>
+<li>High impact</li>
+</ul>
+<p>FAIR (Findable, Accessible, Interoperable and Reusable) is not mentioned on the main page of the <strong>PNAS Author Center</strong>. However, when willing to submit a paper, authors would read the more detailed <a href="https://blog.pnas.org/iforc.pdf">Information for Authors PDF</a> where an entire section is dedicated to &quot;<em>Materials and Data availability</em>&quot;.</p>
+<p>Below is a summary of instructions given to authors for making materials, data, and associated protocols, including code and scripts, available to readers upon publication:</p>
+<ul>
+<li>Deposit data in community-approved public repositories (see the <a href="https://repositoryfinder.datacite.org/">DataCite Repository Finder</a> to search for appropriate repositories) prior to publication and when possible follow the guidelines of the <a href="https://www.force11.org/datacitationprinciples">Joint Declaration of Data Citation Principles</a>. </li>
+<li>Any restrictions on access to the data, or any parts of it, must be disclosed in detail at submission. </li>
+<li>Research datasets should be deposited in an approved database prior to publication and cited in the references. </li>
+<li>Make Algorithms and Computer Codes available e.g., through <a href="https://github.com/">Github</a> or <a href="https://zenodo.org/">Zenodo</a>: the version of code associated with the paper must be maintained by the authors.</li>
+</ul>
+<h4 id="the-paper-itself">The paper itself</h4>
+<p>When working online (with the HTML version), we checked the Data availability link (as available from the paper publisher), which links in this case to a <a href="https://dataverse.harvard.edu/">Harvard Dataverse deployment</a>, which provides a list of 80+ datasets (they can be also seen in a folder-view using the Tree tab). The information in the metadata tabs seems rather simple and is probably not used too much. This is a very specific case, of course.</p>
+<ul>
+<li>While there is an option at the top to download the entire dataset, it does not seem to work. We obviously need to download files one by one which is very cumbersome (and we loose the directory structure). </li>
+</ul>
+<p><strong>Any technical problems will damage the reputation of researchers; not the repository itself</strong>.</p>
+<h3 id="repeat-reproduce-the-analysis">:repeat: reproduce the analysis</h3>
+<ul>
+<li>
+<p>First read README.txt as we thought we would get some information on where to start.</p>
+</li>
+<li>
+<p>So we started from <code>undisasteraid_final.do</code> which is available online:</p>
+</li>
+</ul>
+<p>Obviously Stata has been used for some of the analysis: stata is not open source so it makes it difficult to reproduce/reuse the script provided.</p>
+<ul>
+<li>When getting a file, there is a URL but the filename (real filename) is in the text:</li>
+</ul>
+<p><img src="https://i.imgur.com/ewrGY7j.png" alt="" /></p>
+<p>So to download a file, we need to manually add the output filename:</p>
+<pre style="background-color:#f5f5f5;">
+<code><span style="color:#1f1f1f;">wget https://dataverse.harvard.edu/api/access/datafile/4288994 -O accum_precip_calc.py
+</span></code></pre>
+<ul>
+<li>Data from ERA-Interim (not ERA5 so we guess the analysis has been done a while ago). Forecast data is being used (not analysis) because some variables are not available for analysis (not mentionned).</li>
+</ul>
+<p>However:</p>
+<ul>
+<li>We could not find precise information on the input datasets (only ERA-Interim can be downloaded).</li>
+<li>even though a lot of information is available online https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VWQ5AY the paper and data are disconnected from each other (no cross-reference) so it is often difficult to understand how figures have been produced</li>
+<li>Many data are python or R programs: License is CC0 - &quot;Public Domain Dedication&quot; is not the best for software; for instance MIT should be preferred (we were not sure this can be changed when uploading data). See https://choosealicense.com/</li>
+<li>Stata software has been used for some part of the analysis. Stata is not open source so we cannot reproduce the work easily.</li>
+<li>From a general point of view, there is no description of the software used for the analysis. And for python and R programs, the list of necessary packages/libraries is missing (we could have one environment for each programming language)</li>
+</ul>
+<h4 id="conclusion-of-our-attempt-to-reproduce-the-analysis">conclusion of our attempt to reproduce the analysis</h4>
+<p>It is a complex analysis and even though a lot of information is given, we missed a summary on software (packages, versions) we need before starting to reproduce the analysis. At every step, we &quot;discovered&quot; it which slow down and can discourage potential users.</p>
+<p>We suggest to add such information in the README.txt file.</p>
+<h3 id="recycle-reuse-the-materials">:recycle: reuse the materials</h3>
+<ul>
+<li>
+<p>Choose a license for your codes: there is no appropriate license for programs: CC0 - &quot;Public Domain Dedication&quot; cannot be used for software. We recommend the authors to add a specific license such as MIT license for all codes they share. </p>
+</li>
+<li>
+<p>Make your code citable: deposit codes in version control repository (such as github) and prepare a release to deposit for instance in Zenodo. See more information <a href="https://guides.github.com/activities/citable-code/">here</a>.</p>
+</li>
+<li>
+<p>Add the codes/programs for all the steps from pre-processing, data retrievals to visualization: all the codes used for the analysis are present but we did not find any of the codes used for plotting (it may be in the stata files that we were not able to use as we did not have access to Stata software).</p>
+</li>
+<li>
+<p>It is a good practice to provide plotting routines used to generate the plots in the scientific paper. Make sure to save data used in these plotting routines (we should not need to redo all the analysis to be able to reproduce one plot).</p>
+</li>
+</ul>
+<h3 id="conclusion-on-reusability">Conclusion on reusability</h3>
+<p>Compared to many existing scientific paper, a lot can be reused. However, contacting authors is probably still necessary to be able to reuse the datasets.</p>
+<h2 id="feedback">Feedback</h2>
+<h3 id="feedback-to-the-authors">Feedback to the authors</h3>
+<p>We would like to thank all the authors and congratulate them for their effort to make their research FAIR. 
+We have identified a few improvements that we believe could both improve the FAIRness of their research and ease their day to day work:</p>
+<ul>
+<li>The README.txt file could be a bit more detailed and in particular could contain information about software used. For instance, one of the software used is called Stata: it is a paid general-purpose statistical software package. Using paid software can reduce reproducibility and reusability. Whenever possible, try to use Open Source. A short explanation on why a software has been used would be useful too.</li>
+</ul>
+<h3 id="feedback-to-universities-libraries-and-research-institutes">Feedback to Universities, libraries and research institutes</h3>
+<ul>
+<li>Put more emphasis on FAIR software and the usage of Open Source Software (R, python, etc.) should be encouraged (from bachelor level). Researchers use what they have learned during their studies and often have difficulties to learn new programming languages and tools. It is important to offer training to researchers to keep them aware of technological changes.</li>
+<li>Put more emphasis on scientific workflow management systems. This topic is unknown to many researchers while it could significantly improve the FAIRness of their research and more importantly, it could save them a lot of time.</li>
+</ul>
+<h3 id="feedback-to-data-archive-provider">Feedback to data archive provider</h3>
+<p><a href="https://dataverse.harvard.edu/">Harvard dataverse</a> has not been very reliable during our hackathon: during the hackathon, we were no able to download all the files at a time with the <strong>Download</strong> button. We tried many times and different days and it always failed. In the absence of a clear error message, the problem can easily undermine the researcher's work and effort to make their research FAIR.</p>
+<p>Choosing a research data archive is very important and below we give a few criteria to take into consideration:</p>
+<ul>
+<li>The research data archive must be reliable and fast enough.</li>
+<li>Data should be downloadable per file and also as .zip or .tar.gz or similar with a possibility to choose which file to add in the tarball. The directory structure should be preserved in the process.</li>
+<li>The search should be comprehensive (per author, keywords, etc.).</li>
+<li>Check the FAIR score with f-uji.net as this is often used to measure the FAIRness of research work (while it obviously gives a score that is mostly related to the data archive itself).</li>
+</ul>
+<p><a href="https://dataverse.harvard.edu/">Harvard dataverse</a> fulfills many of these criteria but was overall very slow and difficult to use; mostly because the <strong>Download</strong> button was not working as expected. A week later, we managed to download the entire dataset with no problems. </p>
+<h3 id="feedback-to-publisher">Feedback to publisher</h3>
+<ul>
+<li>FAIRness is not the criteria highlighted by PNAS journal. Emphasis is more on the review process (fast) and impact factor.</li>
+<li>Information for making materials, data, and associated protocols, including code and scripts, available to readers upon publication is rather generic on the PNAS journal. Similar information is found on most journal publishers.</li>
+<li>The <a href="https://www.pnas.org/authors/member-contributed-submissions">Peer Review Process</a> does not mention anything about the FAIRness of the paper and scientific results published. Reviewers are expected to provide comments on the paper but not specifically on the &quot;Material and Data Availability&quot;. Incentive for providing detailed and accurate information on this section is low.</li>
+<li>The section &quot;<strong>Article usage</strong>&quot; at the very end of each paper only highlights the number of reads (Abstract, Full, PDF). Readers have no possibility to comment on the FAIRness. This reflects the current practices in academia, for evaluating researchers.</li>
+</ul>
+
+      
+    </div>
+  </div>
+
+      <!-- footer -->
+      <div class="row">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg">
+          <p>
+            <strong>Funding</strong>
+          </p>
+          <p>
+            NICEST2 is a project within the
+            <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+            NeIC is an organisational unit under <a href="http://www.nordforsk.org/en" target="_blank">NordForsk</a>.
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Follow us</strong>
+          </p>
+          <p>
+            <a href="https://github.com/NordicESMHub" target="_blank">
+              <img src="https://nordicesmhub.github.io/nicest2-fair-hackathon/processed_images/b4cc1d3c13d7ddeb00.png"
+                   alt="NordicESMHub GitHub organization">
+            </a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Contact</strong>
+          </p>
+          <p>
+            <a href="mailto:struthers@nsc.liu.se">struthers@nsc.liu.se</a>
+          </p>
+        </div>
+      </div>
+      <!-- end footer -->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
+            integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8="
+            crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+
+      // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+      var shiftWindow = function() { scrollBy(0, -100) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
+
+  </body>
+</html>
